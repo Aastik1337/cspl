@@ -10,10 +10,11 @@
     }
 
 }
-
-
+    
 * {
     margin: 0;
+    box-sizing: border-box;
+      
 }
 
 html {
@@ -24,6 +25,7 @@ html {
 body {
     animation: fade-in 0.4s;
 }
+
 
 .dc-pic {
     width: 35px;
@@ -138,6 +140,7 @@ body {
     box-shadow: 7px 7px 14px black;
     border-radius: 2px;
 
+
 }
 
 .h2 {
@@ -170,7 +173,7 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 3px;
     animation: fade-in 0.4s 0.1s backwards;
-    background-image: url(test_2.png)
+    background-image: url(test_2.png);
 }
 
 .cards {
@@ -259,316 +262,67 @@ body {
     border-radius: 3px;
 }
 
-.main-schedule {
+.main1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    
+    width: 400px;
+    height: 200px;
+    box-shadow: 2px 2px 4px rgb(233, 163, 11);
+    border: 1px solid rgb(233, 163, 11);
+    margin-bottom: 40px;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(233, 163, 11);;
+
+}
+
+.team1 {
     display: flex;
     flex-direction: row;
+    gap: 80px;
+    margin-top: 20px;
+
+
 
 }
 
-
-.match1-style {
-    box-shadow: 2px 2px 4px rgb(233, 163, 11);
-    width: 400px;
-    margin-left: 80px;
-    padding-bottom: 10px;
-    height: 150px;
-    margin-top: 50px;
-    border: 1px solid rgb(233, 163, 11);
-    ;
+.team2 {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-bottom: 10px;
 }
 
 
-
-.match1-team1-pic {
+.img {
     width: 50px;
     height: 50px;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
     margin-left: 40px;
-    display: flex;
-
-
+    border-radius: 50%;
 }
 
-.match1-team2-pic {
-    width: 50px;
-    height: 50px;
-    margin-left: 40px;
-    margin-top: 40px;
-    display: flex;
-
-
-}
-
-.match1-team1 {
-    margin-left: 130px;
-    margin-top: 55px;
-    position: absolute;
-    top: 4095px;
-
-}
-
-.match1-team2 {
-
-    margin-left: 130px;
-    margin-top: 55px;
-    position: absolute;
-    top: 4185px;
-}
-
-.match1-time1 {
-    margin-top: 29px;
-    margin-left: 310px;
-    position: absolute;
-    top: 4150px;
-    max-width: 20px;
-
-}
-
-
-
-.match2-team1-pic {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 40px;
-    display: flex;
-
-
-}
-
-.match2-team2-pic {
-    width: 50px;
-    height: 50px;
-    margin-left: 40px;
-    margin-top: 40px;
-    display: flex;
-
-
-}
-
-.match2-team1 {
-    margin-top: 55px;
-    top: 4095px;
-    position: absolute;
-    margin-left: 130px;
-
-}
-
-.match2-team2 {
-
-    margin-left: 130px;
-    margin-top: 55px;
-    position: absolute;
-    top: 4185px;
-}
-
-.match2-time1 {
-    margin-top: 29px;
-    margin-left: 310px;
-    position: absolute;
-    top: 4150px;
-    max-width: 20px;
-}
-
-.match2-style {
-
-    box-shadow: 2px 2px 4px rgb(233, 163, 11);
-    width: 400px;
-    margin-left: 80px;
-    padding-bottom: 10px;
-    height: 150px;
-    margin-top: 50px;
-    border: 1px solid rgb(233, 163, 11);
-}
-
-.match3-team1-pic {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 40px;
-    display: flex;
-
-
-}
-
-.match3-team2-pic {
-    width: 50px;
-    height: 50px;
-    margin-left: 40px;
-    margin-top: 40px;
-    display: flex;
-
-
-}
-
-.match3-team1 {
-    margin-left: 130px;
-    top: 4095px;
-    position: absolute;
-    margin-top: 55px;
-
-}
-
-.match3-team2 {
-
-    margin-left: 130px;
-    margin-top: 55px;
-    position: absolute;
-    top: 4185px;
-}
-
-.match3-time1 {
-    margin-top: 29px;
-    margin-left: 310px;
-    position: absolute;
-    top: 4150px;
-    max-width: 20px;
-
-}
-
-
-
-.match3-team1-pic {
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 40px;
-    display: flex;
-
-
-}
-
-.match3-team2-pic {
-    width: 50px;
-    height: 50px;
-    margin-left: 40px;
-    margin-top: 40px;
-    display: flex;
-
-
-}
-
-.match3-team1 {
-    margin-left: 130px;
-    top: 4095px;
-    position: absolute;
-    margin-top: 55px;
-
-}
-
-.match3-team2 {
-
-    margin-left: 130px;
-    margin-top: 55px;
-    position: absolute;
-    top: 4185px;
-}
-
-.match3-time1 {
-    margin-top: 29px;
-    margin-left: 310px;
-    position: absolute;
-    top: 4150px;
-    max-width: 20px;
-
-}
-
-.match3-style {
-    box-shadow: 2px 2px 4px rgb(233, 163, 11);
-    width: 400px;
-    margin-left: 80px;
-    padding-bottom: 10px;
-    height: 150px;
-    border: 1px solid rgb(233, 163, 11);
-    margin-top: 50px;
-
-}
-
-.main-schedule2 {
-    display: flex;
-    margin-top: 70px;
-}
-
-
-.match4-team1,
-.match5-team1,
-.match6-team1 {
-    margin-left: 130px;
-    top: 4375px;
-    position: absolute;
-    margin-top: 55px;
-
-}
-
-.match4-team2,
-.match5-team2,
-.match6-team2 {
-
-    margin-left: 130px;
-    margin-top: 55px;
-    position: absolute;
-    top: 4465px;
-}
-
-.match4-time1,
-.match5-time1,
-.match6-time1 {
-    margin-top: 29px;
-    margin-left: 310px;
-    position: absolute;
-    top: 4430px;
-    max-width: 20px;
-
-}
-
-.match7-team1,
-.match8-team1,
-.match9-team1 {
-    margin-left: 130px;
-    top: 4660px;
-    position: absolute;
-    margin-top: 55px;
-
-}
-
-.match7-team2,
-.match8-team2,
-.match9-team2 {
-
-    margin-left: 130px;
-    margin-top: 55px;
-    position: absolute;
-    top: 4750px;
-}
-
-.match7-time1,
-.match8-time1,
-.match9-time1 {
-    margin-top: 29px;
-    margin-left: 310px;
-    position: absolute;
-    top: 4710px;
-    max-width: 20px;
-
-}
-
-
-.match1-style,
-.match2-style,
-.match3-style:hover {
-    cursor: pointer;
-    box-shadow: 4px 4px 10px rgb(233, 163, 11);
-
-
-}
-
-.match1-style,
-.match2-style,
-.match3-style {
+.name {
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 550;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.time {
+    max-width: 5px;
+    margin-top: 50px;
+    
+
 }
 
 
@@ -578,7 +332,6 @@ body {
     align-items: center;
     margin-top: 15px;
     margin-bottom: 1px;
-
     width: 1250px;
     height: 800px;
     margin-left: 155px;
@@ -644,23 +397,158 @@ body {
 
 }
 
-.match1-team1-pic,
-.match1-team2-pic,
-.match2-team1-pic,
-.match2-team2-pic,
-.match3-team1-pic,
-.match3-team2-pic,
-.match4-team1-pic,
-.match4-team2-pic,
-.match5-team1-pic,
-.match5-team2-pic,
-match6-team1-pic,
-.match6-team2-pic,
-.match7-team2-pic,
-.match7-team1-pic,
-.match8-team1-pic,
-.match8-team2-pic,
-.match9-team1-pic,
-.match9-team2-pic {
-    border-radius: 50%;
+@media (max-width:600px) {
+    .nav-btn {
+        font-size: 12px;
+    }
+
+    .cspl-logo {
+    width: 70px;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    }
+    .dc-pic {
+        width: 25px;
+        margin-left: 220px;
+        margin-top: 8px;
+        position: absolute;
+        top: 15px;
+    }
+    
+    .qq-pic {
+        width: 23px;
+        margin-left: 260px;
+        margin-top: 10px;
+        position: absolute;
+        top: 10px;
+    }
+    
+    .yt-pic {
+        width: 65px;
+        margin-left: 275px;
+        position: absolute;
+        top: 8px;
+    }
+
+    .banner {
+        height: 400px;
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .team-name{
+        font-size: 8px;
+    }
+
+    .team-desc{
+        font-size: 10px;
+    }
+
+    .team-link{
+        width: 50px;
+        font-size: 12px;
+    }
+
+    .cspl-promo {
+        width: 483px;
+    }
+
+    .member{
+        width: 100px;
+        height: 700px;
+    }
+
+    .staff {
+        margin-top: 15px;
+        margin-bottom: 1px;
+        width: 150px;
+        height: 1300px;
+        margin-left: 120px;
+    
+    }
+    
+    .member {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .member img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(215, 135, 5);
+        box-shadow: 4px 4px 9px rgb(215, 135, 5);
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .member img:hover {
+        box-shadow: 8px 8px 15px rgb(215, 135, 5);
+        width: 60px;
+        height: 60px;
+    
+    }
+    
+    .name {
+        margin-top: 10px;
+        font-size: 6px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif
+        
+    
+    }
+    
+    .title-staff {
+        animation: fade-in 0.4s 0.1s backwards;
+        font-family: 'Rubika', sans-serif;
+        text-align: center;
+        margin: 100px;
+        font-size: 50px;
+        font-weight: 900;
+        margin-top: 150px;
+    }
+    
+    .title-staff::after {
+        content: '';
+        height: 6px;
+        width: 70px;
+        display: block;
+        background-color: #E57128;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 3px;
+    }
+
+    .h2 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .title-staff {
+        margin-top: 15px;
+    }
+
+    .h1{
+        font-size: 40px;
+    }
+
+    .para1{
+        font-size: 20px;
+    }
+
+    .h2::after{
+        width: 100px;
+
+    }
+    
+
+
+
+
+
 }
