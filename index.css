@@ -364,7 +364,7 @@ body {
 
 }
 
-.name {
+.name-staff {
     margin-top: 25px;
     font-size: 16px;
     text-align: center;
@@ -397,48 +397,52 @@ body {
 
 }
 
-@media (max-width:600px) {
+
+@media (min-width:350px) {
+
     .nav-btn {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .cspl-logo {
-    width: 70px;
+    width: 40px;
     margin-left: 10px;
     position: absolute;
     top: 10px;
     }
+
     .dc-pic {
         width: 25px;
-        margin-left: 220px;
+        margin-left: 260px;
         margin-top: 8px;
         position: absolute;
         top: 15px;
     }
     
     .qq-pic {
-        width: 23px;
-        margin-left: 260px;
+        width: 21px;
+        margin-left: 294px;
         margin-top: 10px;
         position: absolute;
         top: 10px;
     }
     
     .yt-pic {
-        width: 65px;
-        margin-left: 275px;
+        width: 63px;
+        margin-left: 305px;
         position: absolute;
         top: 8px;
     }
 
     .banner {
-        height: 400px;
-        width: 400px;
-        margin-left: 50px;
+        height: 300px;
+        width: 300px;
+        margin-left: 60px;
     }
 
     .team-name{
-        font-size: 8px;
+        font-size: 5px;
+        
     }
 
     .team-desc{
@@ -451,7 +455,7 @@ body {
     }
 
     .cspl-promo {
-        width: 483px;
+        width: 414px;
     }
 
     .member{
@@ -462,15 +466,17 @@ body {
     .staff {
         margin-top: 15px;
         margin-bottom: 1px;
-        width: 150px;
-        height: 1300px;
-        margin-left: 120px;
+        width: 350px;
+        height: 130px;
+        margin-left: 30px;
     
     }
     
     .member {
         display: flex;
         flex-direction: column;
+        margin-top: 1200px;
+        
 
     }
     
@@ -482,6 +488,7 @@ body {
         box-shadow: 4px 4px 9px rgb(215, 135, 5);
         cursor: pointer;
         transition: all 0.3s;
+        
     }
 
     .member img:hover {
@@ -491,14 +498,14 @@ body {
     
     }
     
-    .name {
+    .name-staff {
+        
         margin-top: 10px;
         font-size: 6px;
         text-align: center;
         text-transform: uppercase;
-        font-family: Arial, Helvetica, sans-serif
+        font-family: Arial, Helvetica, sans-serif;
         
-    
     }
     
     .title-staff {
@@ -545,10 +552,10 @@ body {
         width: 100px;
 
     }
-    
 
-
-
-
+    .name {
+        margin-top: 13px;
+    }
 
 }
+
