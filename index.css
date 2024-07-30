@@ -267,6 +267,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .card {
@@ -276,6 +277,7 @@ body {
     box-shadow: 2px 2px 4px rgb(233, 163, 11);
     border: 1px solid rgb(233, 163, 11);
     margin-bottom: 40px;
+    
 }
 
 .card:hover {
@@ -401,46 +403,53 @@ body {
 
 @media (min-width:350px) {
 
+    .accessories{
+        
+        display: flex;
+        gap: 5px;
+    }
+
     .nav-btn {
-        font-size: 10px;
+        font-size: 2.5vw;
         
     }
 
+    .nav {
+        height: 170px;
+    }
+
     .cspl-logo {
-    width: 40px;
+    width: 70px;
     margin-left: 10px;
     position: absolute;
     top: 10px;
     }
 
     .dc-pic {
-        width: 25px;
-        margin-left: 260px;
+        width: 18px;
+        margin-left: 270px;
         margin-top: 8px;
         position: absolute;
         top: 15px;
     }
     
     .qq-pic {
-        width: 21px;
-        margin-left: 294px;
+        width: 18px;
+        margin-left: 288px;
         margin-top: 10px;
         position: absolute;
         top: 10px;
     }
     
     .yt-pic {
-        width: 63px;
-        margin-left: 305px;
+        width: 60px;
+        margin-left: 290px;
         position: absolute;
         top: 8px;
     }
-    .para1{
-        font-size: 10px;
-    }
 
     .banner {
-        margin-left: 60px;
+        margin-left: 16vw;
         width: 70vw;
         height: 70vw;
         
@@ -453,11 +462,12 @@ body {
 
     .team-desc{
         font-size: 10px;
+        
     }
 
     .team-link{
-        width: 50px;
-        font-size: 12px;
+        width: 10vw;
+        font-size: 2vw;
     }
 
     .cspl-promo {
@@ -472,9 +482,9 @@ body {
     .staff {
         margin-top: 15px;
         margin-bottom: 1px;
-        width: 300px;
+        width: 2vw;
         height: 130px;
-        margin-left: 30px;
+        margin-left: 28vw;
     
     }
     
@@ -482,13 +492,13 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 1200px;
+        margin-left: 2px;
         
-
     }
     
     .member img {
-        width: 50px;
-        height: 50px;
+        width: 10vw;
+        height: 10vw;
         border-radius: 50%;
         border: 1px solid rgb(215, 135, 5);
         box-shadow: 4px 4px 9px rgb(215, 135, 5);
@@ -499,8 +509,8 @@ body {
 
     .member img:hover {
         box-shadow: 8px 8px 15px rgb(215, 135, 5);
-        width: 60px;
-        height: 60px;
+        width: 12vw;
+        height: 12vw;
     
     }
     
@@ -539,24 +549,37 @@ body {
     .h2 {
         margin-top: 50px;
         margin-bottom: 20px;
-        font-size: 22px;
+        font-size: 7vw;
     }
 
     .title-staff {
         margin-top: 15px;
+        font-size: 9vw;
+    }
+
+    .title-staff::after{
+        width: 10vw;
     }
 
     .h1{
-        font-size: 40px;
+        font-size: 9vw;
     }
 
-    .para1{
-        font-size: 20px;
+    .h1::after{
+        width: 20vw;
     }
 
     .h2::after{
-        width: 100px;
+        width: 14vw;
 
+    }
+
+    .title-schedule{
+        font-size: 8vw;
+    }
+
+    .title-schedule::after{
+        width: 14vw;
     }
 
     .name {
@@ -564,11 +587,28 @@ body {
     }
 
     .main1{
-        width: 300px;
-        margin-left: 15px;
+        margin-left: 0px;
+        
+        
     }
+
+    .card{
+        width: 350px;
+         
+        
+    }
+
+
     .time{
         padding-right: 50px;
+    }
+
+    .para1{
+        font-size: 3vw;
+        text-align: center;
+        margin-right: 20px;
+        line-height: 7vw;
+        
     }
 
 }
