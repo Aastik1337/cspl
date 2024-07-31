@@ -474,25 +474,28 @@ body {
         width: 100vw;
     }
 
-    .member{
+    .member {
         width: 100px;
-        height: 700px;
+        height: 700px
     }
 
+
+
+
     .staff {
-        margin-top: 15px;
-        margin-bottom: 1px;
-        width: 2vw;
-        height: 130px;
-        margin-left: 28vw;
-    
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-left: 34vw;
     }
     
     .member {
         display: flex;
         flex-direction: column;
-        margin-top: 1200px;
-        margin-left: 2px;
+        margin-top: 450px;
+        margin-left: 2vw;
+                
+        
         
     }
     
@@ -504,6 +507,7 @@ body {
         box-shadow: 4px 4px 9px rgb(215, 135, 5);
         cursor: pointer;
         transition: all 0.3s;
+
         
     }
 
